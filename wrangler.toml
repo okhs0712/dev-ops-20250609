@@ -6,3 +6,10 @@ compatibility_date = "2025-06-08"
 [[kv_namespaces]]
 binding = "TODOS"
 id = "cdbab7e277ba4f05bd3b92b058574fcf"
+
+[env.dev]
+name = "todo-preview-dev"
+
+[[env.dev.kv_namespaces]]
+binding = "TODOS"
+id = "60d670b4a0f14256ab9e9da1ffa67cf1"
